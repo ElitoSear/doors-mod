@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "doors",
+  "version": "${version}",
+  "name": "doors",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "elito.doors.Doors"
+    ]
+  },
+  "mixins": [
+    "doors.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
